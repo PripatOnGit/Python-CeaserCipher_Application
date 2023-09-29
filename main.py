@@ -1,4 +1,4 @@
-import getDoubleAlphabets
+from getDoubleAlphabets import getDoubleAlphabet
 import getMessage
 import getCipherKey
 import encryptMessage
@@ -9,7 +9,7 @@ def runCeaserCipher():
     print(f"Alphabet: {myAlphabet}")
 
     #double the alphabet string using getDoubleAlphabet()
-    new_alphabet = getDoubleAlphabets.getDoubleAlphabet(myAlphabet)
+    new_alphabet = getDoubleAlphabet(myAlphabet)
     print(f"New_alphabet: {new_alphabet}")
 
     #get message using getMessage()
